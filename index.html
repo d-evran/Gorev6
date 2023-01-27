@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./lib/splide/css/splide.min.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--TITLE-->
+      <div>
+        <h1>Rick And Morty Slider</h1>
+      </div>
+
+      <!--SLIDER-->
+      <div class="container-slider">
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list" id="splide_list">
+                <!-- API -->
+              </ul>
+            </div>
+          </div>
+      </div>
+    
+      <script src="./lib/splide/js/splide.min.js"></script>
+      <script src="./js/rickandmortyApi.js"></script>
+      <script src="./js/character.js"></script>
+    </div>
+  </body>
+</html>

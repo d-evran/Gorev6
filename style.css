@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container-slider {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.splide {
+    margin: 0 auto;
+    width: 940px;
+    height: 325px;
+}
+
+.splide__track {
+    height: 90%;
+}
+
+.character-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 300px;
+    margin: 0 7px;
+}
+
+.slider-item-bottom {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    background-color: rgba(0, 0, 0, 0.642);
+    font-size: small;
+}
